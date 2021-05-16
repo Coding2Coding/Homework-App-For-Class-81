@@ -1,0 +1,32 @@
+var canvas=document.getElementById("canvas");
+var canvasReference=canvas.getContext("2d");
+var circleColor1="dodgerblue";
+var circleColor2="lavender";
+var circleColor3="teal";
+var circleColor4="magenta"
+var circleColor5="lightpink"
+canvasReference.beginPath();
+canvasReference.strokeStyle=circleColor1;
+canvasReference.lineWidth=2;
+canvasReference.arc(200, 200, 20, 0, 2*Math.PI);
+canvasReference.stroke();
+canvasReference.beginPath();
+canvasReference.strokeStyle=circleColor2;
+canvasReference.lineWidth=2;
+canvasReference.arc(238, 200, 20, 0, 2*Math.PI);
+canvasReference.stroke();
+canvasReference.beginPath();
+canvasReference.strokeStyle=circleColor3;
+canvasReference.lineWidth=2;
+canvasReference.arc(276, 200, 20, 0, 2*Math.PI);
+canvasReference.stroke();
+canvasReference.beginPath();
+canvasReference.strokeStyle=circleColor4;
+canvasReference.lineWidth=2;
+canvasReference.arc(219, 238, 20, 0, 2*Math.PI);
+canvasReference.stroke();
+canvasReference.beginPath();
+canvasReference.strokeStyle=circleColor5;
+canvasReference.lineWidth=2;
+canvasReference.arc(257, 238, 20, 0, 2*Math.PI);
+canvasReference.stroke();
